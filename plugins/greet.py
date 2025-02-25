@@ -1,12 +1,11 @@
-# plugins/add.py
+# plugins/greet.py
 from app.commands.command_handler import Command
 
-class AddCommand(Command):
+class GreetCommand(Command):
     def execute(self, *args):
-        if len(args) != 2:
-            raise ValueError("Add command requires exactly 2 arguments.")
-        return args[0] + args[1]
+        """Execute the greet command."""
+        return "Hello! Welcome to the application."
 
 def register(handler):
-    """Register the 'add' command."""
-    handler.register_command("add", AddCommand())
+    """Register the 'greet' command with the handler."""
+    handler.register_command("greet", GreetCommand())
