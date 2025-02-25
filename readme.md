@@ -1,4 +1,33 @@
 # Project: Command Pattern and Plugins Homework 5
+## Demo
+##### `(venv) root@UyenNguyen:~/is601-hw/calc_design_patterns# python3 -m app.commands.app`
+#### `Welcome to the application. Type 'menu' for a list of commands.`
+`>>> menu`
+##### `Result: Available commands:`
+
+- add <num1> <num2>: Add two numbers.`
+- subtract <num1> <num2>: Subtract the second number from the first.
+- multiply <num1> <num2>: Multiply two numbers.
+- divide <num1> <num2>: Divide the first number by the second.
+- greet: Display a greeting message.
+- discord <message>: Simulate sending a message to Discord.
+- menu: Display this menu.
+- exit: Exit the application.
+
+##### `>>> add 2 3`
+##### `Result: 5.0`
+##### `>>> subtract 2 3`
+##### `Result: -1.0`
+##### `>>> multiply 2 3`
+##### `Result: 6.0`
+##### `>>> divide 2 3`
+##### `Result: 0.6666666666666666`
+##### `>>> greet`
+##### `Result: Hello! Welcome to the application.`
+##### `>>> discord Hi everyone on Discord`
+##### `Result: Message sent to Discord: hi everyone on discord`
+##### `>>> exit`
+##### `Exiting...`
 
 ## Introduction
 
